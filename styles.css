@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://www.travelandleisure.com/thmb/rmFpPPFFvmB_rFE9c1Cwty5m8wA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/carolina-beach-north-carolina-NCBEACHES0717-35a319515b024bb3bb68ff14973a3aae.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home {
+    padding: 13%;
+    background-color: rgba(255, 255, 255, 0.644);
+}
+.home-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.MyH1 {
+    color: black;
+    font-family: Georgia;
+    background-color: none;  
+}
+.MyH1 a:visited {
+    color: black;
+}
+.MyH1 a{
+    text-decoration: none;
+}
+h2 {
+    text-align: center
+}
+.menu a {
+    color: black;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+    box-shadow: 2px 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a:hover {
+  transform: scale(1.05);
+}
+
+.menu {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cell{
+    display: flex;
+  padding: 20px  
+}
+.row{display: flex;
+flex-direction: row;}
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+}  
+.image1 {
+    border-radius: 50%;
+}
+.image2 {
+    border-radius: 50%;
+}
+.image3 {
+    border-radius: 50%;
+}
+img{
+    height: auto;
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .home-content {
+        flex-direction: column;
+    }
+  }
+  
